@@ -9,7 +9,7 @@ import App from "./App.tsx";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <BrowserRouter basename="/">
+  <BrowserRouter basename="https://lebonchasseur.vercel.app/">
     <App />
   </BrowserRouter>
 );
