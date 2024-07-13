@@ -10,10 +10,7 @@ function App() {
   return (
     <div className="bg-pictureBackground bg-center bg-cover">
       <Routes>
-        <Route
-          path="https://lebonchasseur.vercel.app/"
-          element={<Homepage />}
-        />
+        <Route path="/" element={<Homepage />} />
         <Route path="/reserves/:reserveid" element={<Reserve />} />
         <Route path="/reserves/:reserveid/:animalid" element={<Animal />} />
       </Routes>
